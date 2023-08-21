@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+.UpperBar {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+.post{
+    margin: 10% auto 10% auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 40%;
+    min-width: 230px;
+    border-radius: 10px;
+}
+.header .counter{
+    justify-content: space-between;
+}
+.header{
+    flex-basis: 80%;
+    margin-left: 5px;
+}
+.counter{
+    font-weight: lighter; 
+    color: lightgray;  
+    flex-basis: 10%;
+    text-align: right;
+    margin-right: 5px;
+
+}
+.image {
+    object-position: center;
+    flex-basis: 100%;
+    width: 100%;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+}
+.caption{
+    flex-basis: 100%;
+    padding: 5px;
+}
+
